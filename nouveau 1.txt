@@ -1,0 +1,119 @@
+Jeux
+
+	- steam
+	- gog galaxy
+	- epic games
+	- lunar client
+	- battle net
+	- ea
+	- rockstar
+	- riot
+	- citra
+	- curseforge
+	- badlion
+	- minecraft
+	
+utilitaire de geek
+	
+	- msi afterburner
+	- hwinfo
+	- crystaldisk
+	- crystaldiskmark
+	- cinebench
+	- nvidia (both)
+	- amd
+	- intel
+	- corsair
+	- razer
+	- signal rgb
+	- logitech (2)
+	- msi
+	- roccat
+	- steelseries
+	- voicemeeter
+	- obs
+	- asus (2)
+	- auros
+	
+utilitaire
+	
+	- everithing
+	- treesize free
+	- revo uninstaller
+	- greenshot
+	- liteshot
+	- specy
+	- recuva
+	- glary utilities
+	- itunes
+	
+app auxquelles on pense jamais
+
+	- vlc
+	- notepad++
+	- keypass
+	- paint.net
+	- wireguard
+	- 7zip
+	- winrar
+	- pdfsam
+	- acrobat
+	- sumatra
+	- draw.io
+	- fillezilla
+	- gimp
+	- instant eyedroper
+	- java
+	- putty
+	- powertoys
+	- suite office
+	- windscribe
+	
+pour la légalité
+
+	- qbitorrent
+	- mkvutils
+	- jdownloader
+	- mediainfo
+	- xreveal
+	- handbrake
+
+communictaion
+	
+	- discord
+	- teamspeak
+	
+taf
+	
+	- vmware workstation pro
+	- virtual box
+	- wireshark
+	
+navigateur
+
+	- chrome
+	- firefox
+	- firefox nightly
+	- brave
+	- opera gx
+	
+code
+
+	- vscode
+	- pycharm
+	- eclipse
+	- python
+
+divertissement
+
+	- deezer
+	- spotifiy
+	- netflix
+	- primevideo
+	- disney
+	- mycanal
+	
+supervision
+
+	- teamviewer
+	- parsec
