@@ -128,3 +128,10 @@ supervision
 
 	- teamviewer
 	- parsec
+
+
+
+
+
+
+orca.exe pour editer les .exe et adapter les paramètre de l'installateur 
