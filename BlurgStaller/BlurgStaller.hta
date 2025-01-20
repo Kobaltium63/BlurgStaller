@@ -1,0 +1,206 @@
+<html>
+<head>
+    <title>BLURGSTALLER</title>
+    <HTA:APPLICATION 
+        APPLICATIONNAME="BlurgStallerApp"
+        ID="BlurgStallerApp" 
+        SCROLL="yes"
+        SINGLEINSTANCE="yes"
+        WINDOWSTATE="maximize"
+		ICON="./Images/blurg.ico"
+		SysMenu="yes"
+		
+    />
+
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="./Style/StyleCSS_general.css" />
+	<script src="./js/Script_JS_base.js"></script>
+	<script src="./js/Script_JS_execution.js"></script>
+
+
+
+</head>
+
+<header>
+    <div id="header">
+	    <div class="titre">
+            <div class="t1">BlurgStaller</div>
+        </div>
+		
+			<!-- Barre de recherche -->
+			<input type="text" id="SoftName" placeholder="Nom du logiciel">
+			  
+		</div>
+
+    </div>
+
+</header>
+
+<body>
+
+    <h1>Sélectionnez les logiciels à installer :</h1>
+    <form id="softwareForm">
+
+        <br><h2>Jeux et plateformes de gaming</h2><br>
+
+        <input type="checkbox" name="software" id="Steam" value="Steam"> Steam <br>
+        <input type="checkbox" name="software" id="EpicGames" value="EpicGames"> Epic Games <br>
+        <input type="checkbox" name="software" id="Battle.net" value="Battle.net"> Battle.net <br>
+        <input type="checkbox" name="software" id="EA" value="EA"> EA <br>
+        <input type="checkbox" name="software" id="Riot" value="Riot"> Riot <br>
+        <input type="checkbox" name="software" id="Rockstar" value="Rockstar"> Rockstar <br>
+        <input type="checkbox" name="software" id="GOGGalaxy" value="GOGGalaxy"> GOG Galaxy <br>
+        <input type="checkbox" name="software" id="Minecraft" value="Minecraft"> Minecraft <br>
+        <input type="checkbox" name="software" id="LunarClient" value="LunarClient"> Lunar Client <br>
+        <input type="checkbox" name="software" id="Badlion" value="Badlion"> Badlion <br>
+        <input type="checkbox" name="software" id="CurseForge" value="CurseForge"> CurseForge <br>
+
+        <br><h2>Émulateurs et gestionnaires de ROMs</h2><br>
+
+        <input type="checkbox" name="software" id="Citra" value="Citra"> Citra <br>
+        <input type="checkbox" name="software" id="Yuzu" value="Yuzu"> Yuzu <br>
+        <input type="checkbox" name="software" id="Ryujinx" value="Ryujinx"> Ryujinx <br>
+        <input type="checkbox" name="software" id="MelonDS" value="MelonDS"> MelonDS <br>
+        <input type="checkbox" name="software" id="DSUMANAGER" value="DSUMANAGER"> DSUMANAGER <br>
+
+        <br><h2>Outils de monitoring et performance</h2><br>
+
+        <input type="checkbox" name="software" id="MSIAfterburner" value="MSIAfterburner"> MSI Afterburner <br>
+        <input type="checkbox" name="software" id="HWINFO" value="HWINFO"> HWINFO <br>
+        <input type="checkbox" name="software" id="CrystalDisk" value="CrystalDisk"> CrystalDisk <br>
+        <input type="checkbox" name="software" id="CrystalDiskMark" value="CrystalDiskMark"> CrystalDiskMark <br>
+        <input type="checkbox" name="software" id="Cinebench" value="Cinebench"> Cinebench <br>
+
+        <br><h2>Pilotes et gestionnaires de périphériques</h2><br>
+
+        <input type="checkbox" name="software" id="NVIDIA App" value="NVIDIA App"> NVIDIA App<br>
+        <input type="checkbox" name="software" id=".." value=".."> NVIDIA (2) <br>
+        <input type="checkbox" name="software" id="AMD" value="AMD"> AMD <br>
+        <input type="checkbox" name="software" id="Intel" value="Intel"> Intel <br>
+        <input type="checkbox" name="software" id="Corsair" value="Corsair"> Corsair <br>
+        <input type="checkbox" name="software" id="Razer" value="Razer"> Razer <br>
+        <input type="checkbox" name="software" id="SignalRGB" value="SignalRGB"> Signal RGB <br>
+        <input type="checkbox" name="software" id="LogitechGhub" value="LogitechGhub"> Logitech G hub <br>
+        <input type="checkbox" name="software" id="LogitechOption" value="LogitechOption"> Logitech Option+ <br>
+        <input type="checkbox" name="software" id="MSI" value="MSI"> MSI <br>
+        <input type="checkbox" name="software" id="Roccat" value="Roccat"> Roccat <br>
+        <input type="checkbox" name="software" id="SteelSeries" value="SteelSeries"> SteelSeries <br>
+        <input type="checkbox" name="software" id="MyASUS" value="MyASUS"> My ASUS <br>
+        <input type="checkbox" name="software" id="ASUSArmoryCreat" value="ASUSArmoryCreat"> ASUS Armory Creat <br>
+        <input type="checkbox" name="software" id="AORUS" value="AORUS"> AORUS <br>
+        <input type="checkbox" name="software" id="VIA" value="VIA"> VIA <br>
+        <input type="checkbox" name="software" id="Whotilitie" value="Whotilitie"> Whotilitie <br>
+        <input type="checkbox" name="software" id="Glorious" value="Glorious"> Glorious <br>
+        <input type="checkbox" name="software" id="HP Scan and Capture" value="HP Scan and Capture"> HP Scan and Capture <br>
+        <input type="checkbox" name="software" id="HP (imprimante)" value="HP (imprimante)"> HP (imprimante) <br>
+        <input type="checkbox" name="software" id="iTunes" value="iTunes"> iTunes <br>
+
+        <br><h2>Multimédia et création</h2><br>
+
+        <input type="checkbox" name="software" id="Voicemeeter" value="Voicemeeter"> Voicemeeter <br>
+        <input type="checkbox" name="software" id="OBS" value="OBS"> OBS <br>
+        <input type="checkbox" name="software" id="VLC" value="VLC"> VLC <br>
+        <input type="checkbox" name="software" id="Greenshot" value="Greenshot"> Greenshot <br>
+        <input type="checkbox" name="software" id="Liteshot" value="Liteshot"> Liteshot <br>
+        <input type="checkbox" name="software" id="InstantEyedropper" value="InstantEyedropper"> Instant Eyedropper <br>
+
+        <br><h2>Utilitaires système et maintenance</h2><br>
+
+        <input type="checkbox" name="software" id="Everything" value="Everything"> Everything <br>
+        <input type="checkbox" name="software" id="TreeSizeFree" value="TreeSizeFree"> TreeSize Free <br>
+        <input type="checkbox" name="software" id="RevoUninstaller" value="RevoUninstaller"> Revo Uninstaller <br>
+        <input type="checkbox" name="software" id="Speccy" value="Speccy"> Speccy <br>
+        <input type="checkbox" name="software" id="Recuva" value="Recuva"> Recuva <br>
+        <input type="checkbox" name="software" id="GlaryUtilities" value="GlaryUtilities"> Glary Utilities <br>
+        <input type="checkbox" name="software" id="PowerToys" value="PowerToys"> PowerToys <br>
+        <input type="checkbox" name="software" id="Orca" value="Orca"> Orca <br>
+
+        <br><h2>Applications bureautiques</h2><br>
+
+        <input type="checkbox" name="software" id="Office" value="Office"> Suite Office <br>
+        <input type="checkbox" name="software" id="Drawio" value="Drawio"> Draw.io <br>
+        <input type="checkbox" name="software" id="Notepad" value="Notepad"> Notepad++ <br>
+        <input type="checkbox" name="software" id="PDFSAM" value="PDFSAM"> PDFSAM <br>
+        <input type="checkbox" name="software" id="Acrobat" value="Acrobat"> Acrobat <br>
+        <input type="checkbox" name="software" id="Sumatra" value="Sumatra"> Sumatra <br>
+        <input type="checkbox" name="software" id="KeePass" value="KeePass"> KeePass <br>
+        <input type="checkbox" name="software" id="PaintNET" value="PaintNET"> Paint.NET <br>
+        <input type="checkbox" name="software" id="GIMP" value="GIMP"> GIMP <br>
+
+        <br><h2>Compresseurs et gestionnaires de fichiers</h2><br>
+
+        <input type="checkbox" name="software" id="7-Zip" value="7-Zip"> 7-Zip <br>
+        <input type="checkbox" name="software" id="WinRAR" value="WinRAR"> WinRAR <br>
+        <input type="checkbox" name="software" id="FileZilla" value="FileZilla"> FileZilla <br>
+
+        <br><h2>Outils réseau et sécurité</h2><br>
+
+        <input type="checkbox" name="software" id="WireGuard" value="WireGuard"> WireGuard <br>
+        <input type="checkbox" name="software" id="Windscribe" value="Windscribe"> Windscribe <br>
+        <input type="checkbox" name="software" id="ProtonPass" value="ProtonPass"> ProtonPass <br>
+        <input type="checkbox" name="software" id="Wireshark" value="Wireshark"> Wireshark <br>
+        <input type="checkbox" name="software" id="Nmap" value="Nmap"> Nmap <br>
+        <input type="checkbox" name="software" id="PuTTY" value="PuTTY"> PuTTY <br>
+
+        <br><h2>Navigateurs et extensions</h2><br>
+
+        <input type="checkbox" name="software" id="Chrome" value="Chrome"> Chrome <br>
+        <input type="checkbox" name="software" id="Firefox" value="Firefox"> Firefox <br>
+        <input type="checkbox" name="software" id="FirefoxNightly" value="FirefoxNightly"> Firefox Nightly <br>
+        <input type="checkbox" name="software" id="Brave" value="Brave"> Brave <br>
+        <input type="checkbox" name="software" id="OperaGX" value="OperaGX"> Opera GX <br>
+
+        <br><h2>Programmation et développement</h2><br>
+
+        <input type="checkbox" name="software" id="VSCode" value="VSCode"> VSCode <br>
+        <input type="checkbox" name="software" id="PyCharm" value="PyCharm"> PyCharm <br>
+        <input type="checkbox" name="software" id="Eclipse" value="Eclipse"> Eclipse <br>
+        <input type="checkbox" name="software" id="Python" value="Python"> Python <br>
+        <input type="checkbox" id="Java" value="Java"> Java <br>
+
+        <br><h2>Streaming et médias</h2><br>
+
+        <input type="checkbox" name="software" id="Deezer" value="Deezer"> Deezer <br>
+        <input type="checkbox" name="software" id="Spotify" value="Spotify"> Spotify <br>
+        <input type="checkbox" name="software" id="Netflix" value="Netflix"> Netflix <br>
+        <input type="checkbox" name="software" id="PrimeVideo" value="PrimeVideo"> Prime Video <br>
+        <input type="checkbox" name="software" id="Disney" value="Disney"> Disney+ <br>
+        <input type="checkbox" name="software" id="MyCanal" value="MyCanal"> MyCanal <br>
+
+        <br><h2>Téléchargement et encodage légale (oui oui)</h2><br>
+
+        <input type="checkbox" name="software" id="Qbitorrent" value="Qbitorrent"> Qbitorrent <br>
+        <input type="checkbox" name="software" id="MKVUtils" value="MKVUtils"> MKVUtils <br>
+        <input type="checkbox" name="software" id="JDownloader" value="JDownloader"> JDownloader <br>
+        <input type="checkbox" name="software" id="MediaInfo" value="MediaInfo"> MediaInfo <br>
+        <input type="checkbox" name="software" id="Xreveal" value="Xreveal"> Xreveal <br>
+        <input type="checkbox" name="software" id="HandBrake" value="HandBrake"> HandBrake <br>
+
+        <br><h2>Collaboration et accès distant</h2><br>
+
+        <input type="checkbox" name="software" id="Discord" value="Discord"> Discord <br>
+        <input type="checkbox" name="software" id="Teamspeak" value="Teamspeak"> Teamspeak <br>
+        <input type="checkbox" name="software" id="TeamViewer" value="TeamViewer"> TeamViewer <br>
+        <input type="checkbox" name="software" id="Parsec" value="Parsec"> Parsec <br>
+        <input type="checkbox" name="software" id="Mumbble" value="Mumbble"> Mumbble <br>
+
+        <br><h2>Virtualisation</h2><br>
+
+        <input type="checkbox" name="software" id="VMware" value="VMware"> VMware Workstation Pro <br>
+        <input type="checkbox" name="software" id="VirtualBox" value="VirtualBox"> VirtualBox <br>
+
+
+    </form>
+    <button onclick="installSoftwares()">Installer</button>
+
+
+
+
+</body>
+<footer>
+	<div id="footer">
+		© 2025 - BlurgStaller - Version Beta 1.0
+	</div>
+</footer>
+
+</html>
